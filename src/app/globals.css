@@ -19,3 +19,30 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Add product alert CSS*/
+.upload-box {
+  width: 250px;
+  height: 275px;
+  border: 2px dashed #ccc;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  position: relative;
+  justify-self: center;
+  margin: auto;
+}
+
+.upload-box:hover {
+  border-color: #888;
+}
+
+.preview-img {
+  width: 250px;
+  height: 275px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin: auto;
+}
